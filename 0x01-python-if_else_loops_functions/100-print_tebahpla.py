@@ -9,7 +9,7 @@ def revalpha():
                 s += chr(i)
         else:
             s += chr(i)
-    print(f"{s}",end="")
+    print("{}".format(s),end="")
 revalpha()
 
 
