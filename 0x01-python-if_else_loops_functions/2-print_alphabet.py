@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for letter in range(ord('a'), ord('z')+1):
-    print(chr(letter), end=' ')
+for i in range(97, 123):
+    tableAsciiToAlphabet = chr(i)
+    asciiToAlpha = "" + tableAsciiToAlphabet
+    print("{}".format(asciiToAlpha), end='')

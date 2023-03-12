@@ -1,15 +1,6 @@
 #!/usr/bin/python3
-def revalpha():
-    s=""
-    for i in reversed(range(ord('a'), ord('z')+1)):
-        if i in range(97, 123):
-            if (ord('a') - i) % 2 == 0:
-                s+= chr(i -32)
-            else:
-                s += chr(i)
-        else:
-            s += chr(i)
-    print("{}".format(s),end="")
-revalpha()
 
-
+i = 0
+for c in range(ord('z'), ord('a') - 1, -1):
+    print("{}".format(chr(c - i)), end="")
+    i = 32 if i == 0 else 0
