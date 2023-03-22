@@ -1,1 +1,1 @@
-# Solutions to tasks on modules
+# Python - import & modules
