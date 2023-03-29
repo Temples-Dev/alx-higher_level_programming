@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Size validation"""
+
 
 class Square:
+    """class Square that defines a square"""
     def __init__(self, size=0):
         if type(size) != int:
             raise TypeError("size must be an integer")
